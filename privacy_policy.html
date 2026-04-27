@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickTranslate — Gizlilik Politikasi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', 'Segoe UI', -apple-system, sans-serif;
+            background: #0a0a1a;
+            color: #e8e8f0;
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: rgba(22, 22, 42, 0.8);
+            border: 1px solid rgba(123, 31, 162, 0.2);
+            border-radius: 16px;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+        }
+        .header { text-align: center; margin-bottom: 32px; }
+        .header h1 {
+            font-size: 28px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #4285F4, #7B1FA2, #00BCD4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+        .header .date { font-size: 13px; color: #9898b8; }
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #4285F4;
+            margin: 28px 0 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(66, 133, 244, 0.15);
+        }
+        h3 { font-size: 15px; font-weight: 600; color: #e8e8f0; margin: 16px 0 8px; }
+        p { font-size: 14px; color: #c8c8d8; margin-bottom: 12px; }
+        ul { padding-left: 20px; margin-bottom: 12px; }
+        li { font-size: 14px; color: #c8c8d8; margin-bottom: 6px; }
+        .highlight {
+            background: rgba(66, 133, 244, 0.08);
+            border-left: 3px solid #4285F4;
+            padding: 12px 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+        }
+        .highlight p { margin-bottom: 0; }
+        a { color: #4285F4; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .contact {
+            background: rgba(0, 188, 212, 0.08);
+            border: 1px solid rgba(0, 188, 212, 0.2);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 24px;
+        }
+        .contact h3 { color: #00BCD4; margin-top: 0; }
+        .footer {
+            text-align: center;
+            margin-top: 32px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(123, 31, 162, 0.15);
+            font-size: 12px;
+            color: #64648c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Gizlilik Politikasi</h1>
+            <p class="date">Son guncelleme: 27 Nisan 2026</p>
+        </div>
+
+        <div class="highlight">
+            <p><strong>Ozet:</strong> QuickTranslate, gizliliginizi ciddiye alir. Kisisel verilerinizi toplamaz, satmaz veya ucuncu taraflarla paylasmaz. Ceviri istekleriniz yalnizca ceviri hizmetini saglamak amaciyla islenir.</p>
+        </div>
+
+        <h2>1. Giris</h2>
+        <p>Bu Gizlilik Politikasi, QuickTranslate Chrome tarayici eklentisi ("Eklenti", "biz", "bizim") tarafindan kullanici verilerinin nasil toplandigi, kullanildigi ve korundugunu aciklar. Eklentiyi kullanarak bu politikayi kabul etmis sayilirsiniz.</p>
+        <p>QuickTranslate, SlimPDF ("Sirket") tarafindan gelistirilmis ve yonetilmektedir.</p>
+
+        <h2>2. Toplanan Veriler</h2>
+        <h3>2.1 Ceviri Verileri</h3>
+        <p>Ceviri islemi sirasinda sectiginiz metin, ceviri hizmetini saglamak amaciyla ucuncu taraf ceviri API'sine (MyMemory) gonderilir. Bu veri:</p>
+        <ul>
+            <li>Yalnizca ceviri amaciyla kullanilir</li>
+            <li>Sunucularimizda saklanmaz</li>
+            <li>Ceviri islemi tamamlandiktan sonra iletim sona erer</li>
+        </ul>
+
+        <h3>2.2 Yerel Depolama</h3>
+        <p>Asagidaki veriler yalnizca tarayicinizin yerel depolama alaninda (chrome.storage.local) saklanir ve hicbir sunucuya gonderilmez:</p>
+        <ul>
+            <li><strong>Ayarlar:</strong> Dil tercihleri, tema secimi, sesli okuma ve gecmis tercihleriniz</li>
+            <li><strong>Ceviri Gecmisi:</strong> Son 100 ceviriniz (istege bagli, kapatilabilir)</li>
+            <li><strong>Kelime Haznesi:</strong> Kaydedilen kelimeler, es anlamlilari, kelime turleri ve SRS tekrar zamanlari</li>
+            <li><strong>Fosforlu Kalem:</strong> Web sayfalarinda isaretlediginiz metinler, URL bazli olarak yerel depoda saklanir</li>
+            <li><strong>Istatistikler:</strong> Toplam ceviri sayisi, dil kullanim istatistikleri ve haftalik ilerleme verileri</li>
+            <li><strong>API Anahtarlari:</strong> Girdiginiz OpenAI ve DeepL API anahtarlari sifrelenmis olarak yerel depoda tutulur</li>
+            <li><strong>YouTube Tercihleri:</strong> Dual Subtitle kutusunun konumu, yazı boyutu ve renk tercihleri yerel olarak saklanır</li>
+        </ul>
+
+        <div class="highlight">
+            <p><strong>Onemli:</strong> Bu verilerin tamami cihazinizda yerel olarak saklanir. Sunucularimiza veya herhangi bir ucuncu tarafa aktarilmaz.</p>
+        </div>
+
+        <h3>2.3 Toplanmayan Veriler</h3>
+        <p>QuickTranslate asagidaki verileri <strong>toplamaz</strong>:</p>
+        <ul>
+            <li>Kisisel kimlik bilgileri (ad, e-posta, telefon)</li>
+            <li>Konum verileri</li>
+            <li>Tarama gecmisi</li>
+            <li>Cerezler (cookies)</li>
+            <li>Finansal bilgiler</li>
+            <li>Saglik verileri</li>
+            <li>Kimlik dogrulama bilgileri</li>
+        </ul>
+
+        <h2>3. Ucuncu Taraf Hizmetleri ve API'ler</h2>
+        <p>Eklentimiz, size en iyi hizmeti sunmak icin cesitli guvenilir ucuncu taraf API'leri kullanir. Bu servislere sadece ilgili ozelligi kullandiginizda veri gonderilir:</p>
+        
+        <h3>3.1 Ceviri Hizmetleri (MyMemory &amp; DeepL)</h3>
+        <p>Varsayilan ceviriler <strong>MyMemory API</strong> araciligiyla yapilir. Eger ayarlardan kendi <strong>DeepL API</strong> anahtarinizi girerseniz, ceviriler dogrudan DeepL'e gonderilir. API anahtariniz sadece tarayicinizda sifreli saklanir ve asla bizim sunucularimiza gonderilmez.</p>
+        
+        <h3>3.2 Yapay Zeka Ozeti (OpenAI)</h3>
+        <p>Eger "Ozetle (AI)" ozelligini kullanmak icin kendi <strong>OpenAI API</strong> anahtarinizi girerseniz, sectiginiz metinler ozetleme amaciyla OpenAI sunucularina iletilir. API anahtariniz yerel olarak saklanir.</p>
+
+        <h3>3.3 PDF ve Gorsel Ceviri (OCR.space)</h3>
+        <p>Gorsel veya PDF uzerinden metin kirparak ceviri yaptiginizda, goruntu metne donusturulmek uzere <strong>OCR.space API</strong> servisine gonderilir. Gorseller islem sonrasi sunucularindan aninda silinir.</p>
+
+        <h3>3.4 Kelime Baglami ve Gorseller (Dictionary API &amp; Unsplash)</h3>
+        <p>Kelime haznesindeki Ingilizce kelimelerin ornek cumleleri, es anlamlilari ve kelime turleri <strong>Free Dictionary API</strong> (dictionaryapi.dev) uzerinden anlik olarak cekilir. Flashcard modundaki gorsel hafiza kartlari icin <strong>Unsplash</strong> uzerinden anonim gorsel istekleri yapilir.</p>
+
+        <h3>3.5 Telaffuz Denetimi (Speech Recognition)</h3>
+        <p>Flashcard modundaki "Telaffuz Pratigi" ozelligi, tarayicinizin yerlesik <strong>Web Speech API</strong> altyapisini kullanir. Ses veriniz yerel olarak veya tarayicinizin varsayilan hizmet saglayicisi tarafindan islenir, tarafimizca kaydedilmez veya toplanmaz.</p>
+
+        <h3>3.6 Fosforlu Kalem ve Okuma Modu Verileri</h3>
+        <p>Web sayfalarinda isaretlediginiz fosforlu kalem verileri yalnizca <strong>yerel tarayici deponuzda</strong> (chrome.storage.local) URL bazli olarak saklanir. Bu veriler hicbir sunucuya gonderilmez. Okuma Modu ise sayfa icerigini yalnizca tarayicinizda yeniden duzenler, herhangi bir veri aktarimi yapilmaz.</p>
+
+        <h3>3.7 YouTube Altyazı Verileri</h3>
+        <p>YouTube Altyazı Çevirmeni özelliği, yalnızca videoda o an oynatılan altyazı segmentlerini yakalar ve seçtiğiniz API (MyMemory/DeepL/OpenAI) aracılığıyla çevirir. Bu veriler:</p>
+        <ul>
+            <li>Videonun asıl içeriğine veya YouTube hesabınıza müdahale etmez</li>
+            <li>Çevrilen altyazı metinleri hiçbir sunucuda saklanmaz</li>
+            <li>Sadece anlık görüntüleme amacıyla kullanılır</li>
+        </ul>
+
+        <h2>4. Izinler</h2>
+        <p>Eklenti asagidaki Chrome izinlerini kullanir:</p>
+        <ul>
+            <li><strong>activeTab:</strong> Aktif sekmede metin secimini algilamak icin</li>
+            <li><strong>storage:</strong> Ayarlari, kelimeleri, fosforlu kalem verilerini ve ceviri gecmisini yerel olarak saklamak icin</li>
+            <li><strong>contextMenus:</strong> Sag tik menusunde ceviri, fosforlu kalem ve okuma modu secenekleri sunmak icin</li>
+            <li><strong>tts:</strong> Sesli okuma ozelligini saglamak icin</li>
+            <li><strong>alarms &amp; notifications:</strong> Kelime tekrarlari (SRS), Pomodoro zamanlayicisi ve haftalik basari raporu bildirimlerini gostermek icin</li>
+        </ul>
+
+        <h2>5. Veri Guvenligi</h2>
+        <p>Verilerinizin guvenligini saglamak icin asagidaki onlemleri aliyoruz:</p>
+        <ul>
+            <li>Tum API iletisimleri HTTPS uzerinden sifrelenerek yapilir</li>
+            <li>Hicbir kisisel veri sunucularimizda saklanmaz</li>
+            <li>Yerel veriler yalnizca tarayicinizin guvenli depolama alaninda tutulur</li>
+            <li>Verileriniz ucuncu taraflara satilmaz veya paylasilmaz</li>
+        </ul>
+
+        <h2>6. Kullanici Haklari</h2>
+        <p>GDPR ve KVKK kapsamindaki haklariniz:</p>
+        <ul>
+            <li><strong>Erisim Hakki:</strong> Hakkinizda tutulan verilere erisim isteyebilirsiniz</li>
+            <li><strong>Silme Hakki:</strong> Ceviri gecmisinizi eklenti ayarlarindan silebilirsiniz</li>
+            <li><strong>Itiraz Hakki:</strong> Veri isleme faaliyetlerimize itiraz edebilirsiniz</li>
+            <li><strong>Tasinabilirlik:</strong> Ceviri gecmisinizi CSV, PDF veya Anki uyumlu formatta disa aktarabilirsiniz</li>
+        </ul>
+
+        <h2>7. Cocuklarin Gizliligi</h2>
+        <p>QuickTranslate, 13 yasin altindaki cocuklari hedeflemez ve bilerek cocuklardan kisisel bilgi toplamaz.</p>
+
+        <h2>8. Politika Degisiklikleri</h2>
+        <p>Bu gizlilik politikasi zaman zaman guncellenebilir. Onemli degisiklikler yapildiginda, eklenti guncelleme notlari araciligiyla bilgilendirileceksiniz. Degisiklikler yayinlandigi tarihten itibaren gecerlidir.</p>
+
+        <div class="contact">
+            <h3>Iletisim</h3>
+            <p>Gizlilik politikamiz hakkinda sorulariniz veya endiseleriniz icin bizimle iletisime gecebilirsiniz:</p>
+            <p><strong>E-posta:</strong> <a href="mailto:support@slimpdf.com.tr">support@slimpdf.com.tr</a></p>
+            <p><strong>Web Sitesi:</strong> <a href="https://slimpdf.com.tr" target="_blank" rel="noopener">slimpdf.com.tr</a></p>
+            <p><strong>Gizlilik Politikasi:</strong> <a href="https://slimpdf.com.tr/privacy-policy" target="_blank" rel="noopener">slimpdf.com.tr/privacy-policy</a></p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 SlimPDF — Tum haklari saklidir.</p>
+            <p style="margin-top: 4px;">QuickTranslate — Aninda Metin Cevirici</p>
+        </div>
+    </div>
+</body>
+</html>
