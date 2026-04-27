@@ -83,83 +83,57 @@
         </div>
 
         <div class="highlight">
-            <p><strong>Summary:</strong> QuickTranslate takes your privacy seriously. We do not collect, sell, or share your personal data with third parties. Your translation requests are processed solely to provide the translation service.</p>
+            <p><strong>Overview:</strong> QuickTranslate is committed to protecting your privacy. We do not sell, rent, or share your personal data. Most data processed by this extension remains strictly on your local device.</p>
         </div>
 
         <h2>1. Introduction</h2>
-        <p>This Privacy Policy describes how QuickTranslate Chrome browser extension ("Extension", "we", "us", "our") collects, uses, and protects user data. By using the Extension, you agree to this policy.</p>
-        <p>QuickTranslate is developed and managed by SlimPDF ("Company").</p>
+        <p>This Privacy Policy explains how QuickTranslate ("Extension", "we", "us") handles user information. By using the Extension, you consent to the practices described in this policy. QuickTranslate is operated by SlimPDF.</p>
 
-        <h2>2. Data Collection</h2>
-        <h3>2.1 Translation Data</h3>
-        <p>During the translation process, the text you select is sent to third-party translation APIs (such as MyMemory) to provide the service. This data:</p>
+        <h2>2. Data Collection and Usage</h2>
+        <h3>2.1 Translation Content</h3>
+        <p>When you select text for translation, that text is transmitted to third-party providers (such as MyMemory) solely to perform the translation. This data is not stored on our servers and is discarded after the translation is delivered.</p>
+
+        <h3>2.2 Local Browser Storage</h3>
+        <p>The following data is stored <strong>exclusively</strong> in your browser's local storage (chrome.storage.local) and is never transmitted to us or any third party:</p>
         <ul>
-            <li>Is used solely for translation purposes</li>
-            <li>Is not stored on our servers</li>
-            <li>Transmission ends once the translation is complete</li>
+            <li><strong>Settings:</strong> Your theme, language, and feature preferences.</li>
+            <li><strong>Vocabulary Vault:</strong> Saved words, flashcards, and SRS progress.</li>
+            <li><strong>Translation History:</strong> A record of your recent translations (can be cleared at any time).</li>
+            <li><strong>Highlighter Data:</strong> Your text highlights on specific web pages.</li>
+            <li><strong>API Keys:</strong> OpenAI or DeepL keys you provide are stored locally and encrypted.</li>
         </ul>
 
-        <h3>2.2 Local Storage</h3>
-        <p>The following data is stored only in your browser's local storage (chrome.storage.local) and is never sent to any server:</p>
+        <h2>3. Third-Party Services</h2>
+        <p>We utilize trusted third-party services for specific functionalities. Data is shared with them only when you use the corresponding feature:</p>
         <ul>
-            <li><strong>Settings:</strong> Language preferences, theme selection, and feature toggles</li>
-            <li><strong>Translation History:</strong> Your recent translations (optional and can be disabled)</li>
-            <li><strong>Vocabulary Vault:</strong> Saved words, synonyms, and Spaced Repetition (SRS) data</li>
-            <li><strong>Highlighter Data:</strong> Text highlights on web pages, stored locally per URL</li>
-            <li><strong>Statistics:</strong> Total translation counts and weekly progress data</li>
-            <li><strong>API Keys:</strong> OpenAI and DeepL API keys you provide are stored encrypted locally</li>
+            <li><strong>Translation:</strong> MyMemory, DeepL (if key provided).</li>
+            <li><strong>AI Features:</strong> OpenAI (if key provided) for summarization.</li>
+            <li><strong>OCR:</strong> OCR.space for recognizing text in images and PDFs.</li>
+            <li><strong>Educational Content:</strong> Free Dictionary API for word definitions and Unsplash for flashcard images.</li>
         </ul>
 
-        <div class="highlight">
-            <p><strong>Important:</strong> All of this data is stored locally on your device. It is not transmitted to our servers or any third party.</p>
-        </div>
+        <h2>4. Licensing and Payments</h2>
+        <h3>4.1 Firebase (License Management)</h3>
+        <p>To verify your Pro subscription, your email address and license key are stored in <strong>Google Firebase Firestore</strong>. This allows us to enforce device limits and manage your access.</p>
 
-        <h2>3. Third-Party Services and APIs</h2>
-        <p>Our extension uses various trusted third-party APIs. Data is sent to these services only when the specific feature is used:</p>
-        
-        <h3>3.1 Translation Services (MyMemory &amp; DeepL)</h3>
-        <p>Default translations are performed via the <strong>MyMemory API</strong>. If you provide your own <strong>DeepL API</strong> key, translations are sent directly to DeepL. Your API key remains local and encrypted.</p>
-        
-        <h3>3.2 AI Summaries (OpenAI)</h3>
-        <p>If you use the "Summarize (AI)" feature with your own <strong>OpenAI API</strong> key, selected texts are sent to OpenAI for processing. Your key is stored locally.</p>
+        <h3>4.2 Paddle (Payment Processing)</h3>
+        <p>All financial transactions are handled by <strong>Paddle</strong>. We do not have access to, nor do we store, your credit card details or billing address. Paddle's privacy policy governs the security of your payment data.</p>
 
-        <h3>3.3 PDF and Image Translation (OCR.space)</h3>
-        <p>When translating text from images or PDFs, the data is sent to the <strong>OCR.space API</strong> for text recognition. Images are deleted from their servers immediately after processing.</p>
+        <h2>5. Device Limit and Refunds</h2>
+        <p>Each license key is limited to <strong>2 (two)</strong> active devices at a time. Due to the digital nature of the software, refunds are only issued if the product is proven to be non-functional within 7 days of purchase.</p>
 
-        <h3>3.4 YouTube Subtitle Data</h3>
-        <p>The YouTube Dual Subtitle feature captures the active subtitle segments and translates them via your chosen API. No data is stored on our servers.</p>
+        <h2>6. Security and Data Protection</h2>
+        <p>All communications with third-party APIs are conducted over secure HTTPS connections. We implement industry-standard practices to ensure the integrity of your locally stored data.</p>
 
-        <h3>3.5 Licensing (Firebase)</h3>
-        <p>To activate Pro features, your email address and license key are stored in the <strong>Google Firebase Firestore</strong> database to verify your license status. This data is used solely for license management.</p>
+        <h2>7. User Rights (GDPR/CCPA)</h2>
+        <p>You have the right to access, export, or delete your data. Since your data is primarily stored locally, you can exercise these rights by using the "Clear Data" or "Export" features within the Extension settings.</p>
 
-        <h3>3.6 Payments (Paddle)</h3>
-        <p>Payments are handled securely by <strong>Paddle</strong>. We never see or store your credit card or financial information. Paddle manages transaction security under its own privacy policy.</p>
-
-        <h2>4. Refund and License Policy</h2>
-        <div class="highlight">
-            <p><strong>Refund Terms:</strong> QuickTranslate Pro is a digitally delivered product. Due to its nature, once a license key has been delivered and activated on at least one (1) device, no refunds are accepted. However, if the license key fails to work due to a technical issue, you are entitled to a full refund within 7 days of purchase.</p>
-        </div>
-        <ul>
-            <li><strong>Device Limit:</strong> Each license key can be used on a maximum of <strong>2 (two)</strong> different devices simultaneously.</li>
-            <li><strong>Ownership:</strong> Purchased licenses are lifetime and require only a one-time payment.</li>
-        </ul>
-
-        <h2>5. Permissions</h2>
-        <p>The Extension uses the following Chrome permissions:</p>
-        <ul>
-            <li><strong>activeTab:</strong> To detect text selection on the active page</li>
-            <li><strong>storage:</strong> To save settings and vocabulary locally</li>
-            <li><strong>contextMenus:</strong> To provide right-click translation and reading options</li>
-            <li><strong>tts:</strong> For the Text-to-Speech feature</li>
-            <li><strong>notifications:</strong> For vocabulary reminders and Pomodoro alerts</li>
-        </ul>
-
-        <h2>6. User Rights</h2>
-        <p>Under GDPR and other privacy laws, you have the right to access, delete, or export your data. Since all data is local, you can manage this directly within the extension settings.</p>
+        <h2>8. Children's Privacy</h2>
+        <p>QuickTranslate does not knowingly collect personal information from children under the age of 13. If we become aware that such data has been collected, we will take steps to delete it immediately.</p>
 
         <div class="contact" id="contact">
-            <h3>Contact</h3>
-            <p>For questions or concerns regarding our privacy policy, please contact us:</p>
+            <h3>📬 Contact Information</h3>
+            <p>For any privacy-related inquiries, please contact us:</p>
             <p><strong>Email:</strong> <a href="mailto:support@slimpdf.com.tr">support@slimpdf.com.tr</a></p>
             <p><strong>Website:</strong> <a href="https://slimpdf.com.tr" target="_blank" rel="noopener">slimpdf.com.tr</a></p>
             <p><strong>Terms of Service:</strong> <a href="terms_of_service.html">View our Terms of Service</a></p>
@@ -167,11 +141,6 @@
 
         <div class="footer">
             <p>&copy; 2026 SlimPDF — All rights reserved.</p>
-        </div>
-    </div>
-</body>
-</html>
-         <p style="margin-top: 4px;">QuickTranslate — Aninda Metin Cevirici</p>
         </div>
     </div>
 </body>
